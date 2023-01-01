@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TRMData", "TRMData\TRMData.sqlproj", "{756C0BC1-7199-4576-ACD6-83F9CE4359B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDesktopUI", "TRMDesktopUI\TRMDesktopUI.csproj", "{163177B9-3446-4E91-B0EC-150A765A8AA9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C0BC1-7199-4576-ACD6-83F9CE4359B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{163177B9-3446-4E91-B0EC-150A765A8AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163177B9-3446-4E91-B0EC-150A765A8AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163177B9-3446-4E91-B0EC-150A765A8AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163177B9-3446-4E91-B0EC-150A765A8AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
