@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TRMDesktopUI.Models;
+using TRMDesktopUI.Library.Models;
 
 namespace TRMDesktopUI
 {
@@ -16,7 +17,7 @@ namespace TRMDesktopUI
         private readonly IConfiguration config;
 
         public APIHelper(
-            ILoggedInUserModel loggedInUser
+            LoggedInUserModel loggedInUser
             , IConfiguration config)
         {
             this.loggedInUser = loggedInUser;
