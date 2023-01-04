@@ -44,6 +44,7 @@
     <Compile Include="Api\APIHelper.cs" />
     <Compile Include="Api\IAPIHelper.cs" />
     <Compile Include="Api\ProductEndpoint.cs" />
+    <Compile Include="Models\CartItemDisplayModel.cs" />
     <Compile Include="Models\LoggedInUserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

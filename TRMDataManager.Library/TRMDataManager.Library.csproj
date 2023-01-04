@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="DataAccess\IInventoryData.cs" />
     <Compile Include="DataAccess\ProductData.cs" />
+    <Compile Include="Models\CartItemModel.cs" />
     <Compile Include="Models\InventoryModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\UserModel.cs" />
