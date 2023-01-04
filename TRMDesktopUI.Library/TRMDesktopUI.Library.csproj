@@ -43,10 +43,15 @@
   <ItemGroup>
     <Compile Include="Api\APIHelper.cs" />
     <Compile Include="Api\IAPIHelper.cs" />
+    <Compile Include="Api\ProductEndpoint.cs" />
     <Compile Include="Models\LoggedInUserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TRMDataManager.Library\TRMDataManager.Library.csproj">
+      <Project>{7AE48C9F-B4F2-4637-85F6-22D788574FCC}</Project>
+      <Name>TRMDataManager.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TRMDesktopUI\TRMDesktopUI.csproj">
       <Project>{163177B9-3446-4E91-B0EC-150A765A8AA9}</Project>
       <Name>TRMDesktopUI</Name>
