@@ -8,4 +8,4 @@ begin
 	set nocount on;
 	insert into dbo.[User] (Id, FirstName, LastName, EmailAddress)
 	values (@Id, @FirstName, @LastName, @EmailAddress);
-end 
+end  
