@@ -12,8 +12,7 @@ namespace TRMDataManager.Library.Models
         {
             get; set;
         }
-
-        public int QuantityInCart
+                public int QuantityInCart
         {
             get; set;
         }
